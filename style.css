@@ -1,0 +1,134 @@
+/*.assign-one {
+    text-align: center;
+}
+@media print {
+    .assign-one {
+    font-size : 40px;
+    }
+}
+*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: black;
+    font-weight: lighter;
+}
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+    .container {
+        display: flex;
+        background-color: #eee;
+        align-items: center;
+        justify-content: center;
+        gap: 20px 20px;
+        padding: 10px 0 10px 0;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .container div {
+        border: 1px solid #ddd;
+        padding: 10px 40px 0 40px;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        width: 100%;
+    
+    }
+
+}
+
+/* Small Screens */
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+        display: flex;
+        background-color: #eee;
+        align-items: center;
+        justify-content: center;
+        gap: 20px 20px;
+        padding: 10px 0 10px 0;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .container div {
+        border: 1px solid #ddd;
+        padding: 10px 40px 0 40px;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        width: 100%;
+    
+    }
+}
+
+/* Medium Screens */
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .container {
+        display: flex;
+        background-color: #eee;
+        align-items: center;
+        justify-content: center;
+        gap: 20px 20px;
+        padding: 10px 0 10px 0;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .container div {
+        border: 1px solid #ddd;
+        padding: 10px 40px 0 40px;
+        text-align: center;
+        color: red;
+        font-weight: bold;
+        width: calc(50% - 100px);
+    
+    }
+}
+
+/* Large Screens */
+
+@media (min-width: 1025px) and (max-width:1200px){
+    .container {
+        display: flex;
+        background-color: #eee;
+        align-items: center;
+        justify-content: center;
+        gap: 20px 20px;
+        padding: 10px 0 10px 0;
+        margin: auto;
+    }
+    .container div {
+        border: 1px solid #ddd;
+        padding: 10px 40px 0 40px;
+        text-align: center;
+        color: #08998B;
+        font-weight: bold;
+    
+    }
+
+}
+
+/* Custom */
+
+@media (min-width: 1201px) {
+    .container {
+        display: flex;
+        background-color: #eee;
+        align-items: center;
+        justify-content: center;
+        gap: 20px 20px;
+        padding: 10px 0 10px 0;
+        margin: auto;
+    }
+    .container div {
+        border: 1px solid #ddd;
+        padding: 10px 40px 0 40px;
+        text-align: center;
+        color: #08998B;
+        font-weight: bold;
+    
+    }
+
+}
